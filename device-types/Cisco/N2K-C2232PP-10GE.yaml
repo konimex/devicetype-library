@@ -7,88 +7,90 @@ u_height: 1
 is_full_depth: false
 front_image: true
 rear_image: true
-interfaces:
-  - name: Ethernet1/1/1
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/2
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/3
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/4
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/5
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/6
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/7
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/8
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/9
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/10
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/11
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/12
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/13
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/14
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/15
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/16
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/17
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/18
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/19
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/20
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/21
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/22
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/23
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/24
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/25
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/26
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/27
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/28
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/29
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/30
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/31
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/1/32
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/2/1
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/2/2
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/2/3
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/2/4
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/2/5
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/2/6
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/2/7
-    type: 10gbase-x-sfpp
-  - name: Ethernet1/2/8
-    type: 10gbase-x-sfpp
+weight: 8.3
+weight_unit: kg
+comments: '[Data Sheet](https://www.cisco.com/c/en/us/products/collateral/switches/nexus-2000-series-fabric-extenders/data_sheet_c78-507093.htmlhttps://www.cisco.com/c/en/us/products/collateral/switches/nexus-2000-series-fabric-extenders/data_sheet_c78-507093.html)'
 module-bays:
+  - name: Ethernet{vc_position:1}/1/1
+    position: Ethernet{vc_position:1}/1/1
+  - name: Ethernet{vc_position:1}/1/2
+    position: Ethernet{vc_position:1}/1/2
+  - name: Ethernet{vc_position:1}/1/3
+    position: Ethernet{vc_position:1}/1/3
+  - name: Ethernet{vc_position:1}/1/4
+    position: Ethernet{vc_position:1}/1/4
+  - name: Ethernet{vc_position:1}/1/5
+    position: Ethernet{vc_position:1}/1/5
+  - name: Ethernet{vc_position:1}/1/6
+    position: Ethernet{vc_position:1}/1/6
+  - name: Ethernet{vc_position:1}/1/7
+    position: Ethernet{vc_position:1}/1/7
+  - name: Ethernet{vc_position:1}/1/8
+    position: Ethernet{vc_position:1}/1/8
+  - name: Ethernet{vc_position:1}/1/9
+    position: Ethernet{vc_position:1}/1/9
+  - name: Ethernet{vc_position:1}/1/10
+    position: Ethernet{vc_position:1}/1/10
+  - name: Ethernet{vc_position:1}/1/11
+    position: Ethernet{vc_position:1}/1/11
+  - name: Ethernet{vc_position:1}/1/12
+    position: Ethernet{vc_position:1}/1/12
+  - name: Ethernet{vc_position:1}/1/13
+    position: Ethernet{vc_position:1}/1/13
+  - name: Ethernet{vc_position:1}/1/14
+    position: Ethernet{vc_position:1}/1/14
+  - name: Ethernet{vc_position:1}/1/15
+    position: Ethernet{vc_position:1}/1/15
+  - name: Ethernet{vc_position:1}/1/16
+    position: Ethernet{vc_position:1}/1/16
+  - name: Ethernet{vc_position:1}/1/17
+    position: Ethernet{vc_position:1}/1/17
+  - name: Ethernet{vc_position:1}/1/18
+    position: Ethernet{vc_position:1}/1/18
+  - name: Ethernet{vc_position:1}/1/19
+    position: Ethernet{vc_position:1}/1/19
+  - name: Ethernet{vc_position:1}/1/20
+    position: Ethernet{vc_position:1}/1/20
+  - name: Ethernet{vc_position:1}/1/21
+    position: Ethernet{vc_position:1}/1/21
+  - name: Ethernet{vc_position:1}/1/22
+    position: Ethernet{vc_position:1}/1/22
+  - name: Ethernet{vc_position:1}/1/23
+    position: Ethernet{vc_position:1}/1/23
+  - name: Ethernet{vc_position:1}/1/24
+    position: Ethernet{vc_position:1}/1/24
+  - name: Ethernet{vc_position:1}/1/25
+    position: Ethernet{vc_position:1}/1/25
+  - name: Ethernet{vc_position:1}/1/26
+    position: Ethernet{vc_position:1}/1/26
+  - name: Ethernet{vc_position:1}/1/27
+    position: Ethernet{vc_position:1}/1/27
+  - name: Ethernet{vc_position:1}/1/28
+    position: Ethernet{vc_position:1}/1/28
+  - name: Ethernet{vc_position:1}/1/29
+    position: Ethernet{vc_position:1}/1/29
+  - name: Ethernet{vc_position:1}/1/30
+    position: Ethernet{vc_position:1}/1/30
+  - name: Ethernet{vc_position:1}/1/31
+    position: Ethernet{vc_position:1}/1/31
+  - name: Ethernet{vc_position:1}/1/32
+    position: Ethernet{vc_position:1}/1/32
+  - name: Ethernet{vc_position:1}/2/1
+    position: Ethernet{vc_position:1}/2/1
+  - name: Ethernet{vc_position:1}/2/2
+    position: Ethernet{vc_position:1}/2/2
+  - name: Ethernet{vc_position:1}/2/3
+    position: Ethernet{vc_position:1}/2/3
+  - name: Ethernet{vc_position:1}/2/4
+    position: Ethernet{vc_position:1}/2/4
+  - name: Ethernet{vc_position:1}/2/5
+    position: Ethernet{vc_position:1}/2/5
+  - name: Ethernet{vc_position:1}/2/6
+    position: Ethernet{vc_position:1}/2/6
+  - name: Ethernet{vc_position:1}/2/7
+    position: Ethernet{vc_position:1}/2/7
+  - name: Ethernet{vc_position:1}/2/8
+    position: Ethernet{vc_position:1}/2/8
   - name: PS1
     position: '1'
   - name: PS2

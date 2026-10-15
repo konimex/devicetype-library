@@ -1,0 +1,18 @@
+---
+profile: Transceiver
+manufacturer: Cisco
+model: FET-10G
+part_number: 10-2566-02
+weight: 75.0
+weight_unit: g
+attribute_data:
+  phy: FET-10G
+  media: MMF
+  reach: 100.0
+  data_rate: 10G
+  form_factor: SFP+
+  connector_type: LC/UPC
+comments: '[Cisco 10GBASE SFP+ modules data sheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/data_sheet_c78-455693.html)'
+interfaces:
+  - name: '{module}'
+    type: 10gbase-sr
